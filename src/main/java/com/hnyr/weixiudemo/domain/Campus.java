@@ -28,5 +28,5 @@ public class Campus implements Serializable {
     private String campusName;
 
     @TableField(exist = false)
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID11 = 1L;
 }
