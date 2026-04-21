@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weixiudemo.mapper.TeacherMapper">
+
+    <resultMap id="BaseResultMap" type="com.hnyr.weixiudemo.domain.Teacher">
+            <id property="id" column="id" />
+            <result property="teacherNo" column="teacher_no" />
+            <result property="teacherName" column="teacher_name" />
+            <result property="phone" column="phone" />
+            <result property="password" column="password" />
+            <result property="campusId" column="campus_id" />
+            <result property="departmentId" column="department_id" />
+            <result property="grade" column="grade" />
+            <result property="className" column="class_name" />
+            <result property="counselorId" column="counselor_id" />
+            <result property="createTime" column="create_time" />
+            <result property="updateTime" column="update_time" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,teacher_no,teacher_name,phone,password,campus_id,
+        department_id,grade,class_name,counselor_id,create_time,
+        update_time
+    </sql>
+</mapper>
