@@ -29,5 +29,4 @@ public class Campus implements Serializable {
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
-    //错误的代码
 }
